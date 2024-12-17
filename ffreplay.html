@@ -9,7 +9,7 @@
   const url = urlParams.get("url");
   const go = new Go();
   WebAssembly.instantiateStreaming(
-    fetch("ffreplay-9371271.wasm"),
+    fetch("ffreplay-57bbdd9.wasm"),
     go.importObject
   ).then((result) => {
     if (url === null) {
