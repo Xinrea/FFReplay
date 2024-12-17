@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>FFReplay - @Xinrea</title>
+<script src="wasm_exec.js"></script>
+<script>
+  // get the query string
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const url = urlParams.get("url");
+  const go = new Go();
+  WebAssembly.instantiateStreaming(
+    fetch("ffreplay-9371271.wasm"),
+    go.importObject
+  ).then((result) => {
+    if (url === null) {
+      console.error("url parameter is required");
+      return;
+    }
+    go.argv = ["", "-u", url];
+    go.run(result.instance);
+  });
+</script>
