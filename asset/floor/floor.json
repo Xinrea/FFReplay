@@ -1,6 +1,38 @@
 {
   "maps": [
     {
+      "id": 834,
+      "path": "asset/floor/p10s.jpg",
+      "offset": {
+        "x": 0,
+        "y": -187.5
+      }
+    },
+    {
+      "id": 837,
+      "path": "asset/floor/p9s.jpg",
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 839,
+      "path": "asset/floor/p11s.jpg",
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 835,
+      "path": "asset/floor/p12s.jpg",
+      "offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
       "id": 924,
       "path": "asset/floor/m4s.png",
       "offset": {
@@ -10,7 +42,7 @@
     },
     {
       "id": 926,
-      "path": "asset/floor/m3s.png",
+      "path": "asset/floor/m3s.jpg",
       "offset": {
         "x": 0,
         "y": 0
@@ -18,7 +50,7 @@
     },
     {
       "id": 923,
-      "path": "asset/floor/m2s.png",
+      "path": "asset/floor/m2s.jpg",
       "offset": {
         "x": 0,
         "y": 0
@@ -26,7 +58,7 @@
     },
     {
       "id": 927,
-      "path": "asset/floor/m1s.png",
+      "path": "asset/floor/m1s.jpg",
       "offset": {
         "x": 0,
         "y": 0
@@ -34,11 +66,48 @@
     },
     {
       "id": 77,
-      "path": "asset/floor/afr.png",
+      "path": "asset/floor/futures_rewritten_1.png",
       "offset": {
         "x": 0,
         "y": 0
-      }
+      },
+      "phases": [
+        {
+          "path": "asset/floor/futures_rewritten_1.png",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/futures_rewritten_2.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/futures_rewritten_3.png",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/futures_rewritten_3.png",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/futures_rewritten_4.png",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ]
     }
   ]
 }
