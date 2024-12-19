@@ -108,6 +108,72 @@
           }
         }
       ]
+    },
+    {
+      "id": 758,
+      "path": "asset/floor/dragonsongs_reprise_1.jpg",
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "phases": [
+        {
+          "path": "asset/floor/dragonsongs_reprise_1.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_2.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_1.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_5.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/dragonsongs_reprise_7.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ]
     }
   ]
 }
