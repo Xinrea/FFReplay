@@ -1,92 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>FFReplay - @Xinrea</title>
-    <style>
-      body {
-        background-color: #121212;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-      }
-      #logs-input {
-        background-color: #1e1e1e;
-        margin: 80px;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      #url,
-      button {
-        height: 50px;
-        font-size: 20px;
-        padding: 10px;
-        margin: 10px 0;
-        background-color: #333333;
-        color: #ffffff;
-        border: none;
-        border-radius: 5px;
-      }
-      #url::placeholder {
-        color: #aaaaaa;
-      }
-      button {
-        background-color: #444444;
-        cursor: pointer;
-      }
-      button:hover {
-        background-color: #555555;
-      }
-      a {
-        color: #1e90ff;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #63a4ff;
-        text-decoration: underline;
-      }
-      .sm {
-        font-size: 12px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="logs-input">
-      <p>
-        作者：<a href="https://space.bilibili.com/475210" target="_blank"
-          >@Xinrea</a
-        >
-        / 杏仁儿owo @拉诺西亚
-      </p>
-      <p class="sm">
-        回放程序约
-        10MB，且会预载所需图片资源，首次使用加载时间视网络情况而定，请耐心等待；目前场地背景支持仍在持续添加中，如果有场地素材可以提供请与我联系。
-      </p>
-      <div style="display: flex; flex-direction: column">
-        <input type="text" id="url" placeholder="请在此处粘贴 FFLogs 地址" />
-        <button
-          onclick="window.location = `/ffreplay.html?url=${document.getElementById('url').value}`"
-        >
-          Go
-        </button>
-      </div>
-      <p class="sm">
-        FFReplay 所使用的数据均来自
-        <a href="https://www.fflogs.com" target="_blank">FFLogs</a>
-        网站，图片等素材版权为
-        <a href="https://www.square-enix.com/" target="_blank">SQUARE ENIX</a>
-        所有.
-      </p>
-      <p class="sm">
-        Copyright (C) 2010 - 2024 SQUARE ENIX CO., LTD. All Rights Reserved.
-      </p>
-    </div>
-  </body>
-  <script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const url = urlParams.get("url");
-    if (url) {
-      // redirect to ffreplay.html
-      window.location = `/ffreplay.html?url=${url}`;
+
+<head>
+  <title>FFReplay - @Xinrea</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
     }
-  </script>
+
+    #logs-input {
+      background-color: #1e1e1e;
+      margin: 80px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    #url,
+    button {
+      height: 50px;
+      font-size: 20px;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #333333;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #url::placeholder {
+      color: #aaaaaa;
+    }
+
+    button {
+      background-color: #444444;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555555;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #63a4ff;
+      text-decoration: underline;
+    }
+
+    .sm {
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="logs-input">
+    <p>
+      作者：<a href="https://space.bilibili.com/475210" target="_blank">@Xinrea</a>
+      / 杏仁儿owo @拉诺西亚
+    </p>
+    <p class="sm">
+      回放程序约
+      10MB，且会预载所需图片资源，首次使用加载时间视网络情况而定，请耐心等待；目前场地背景支持仍在持续添加中，如果有场地素材可以提供请与我联系。
+    </p>
+    <div style="display: flex; flex-direction: column">
+      <input type="text" id="url" placeholder="请在此处粘贴 FFLogs 地址" />
+      <button onclick="window.location = `/ffreplay.html?url=${document.getElementById('url').value}`">
+        Go
+      </button>
+    </div>
+    <p class="sm">
+      FFReplay 所使用的数据来自
+      <a href="https://www.fflogs.com" target="_blank">FFLogs</a>
+      以及 <a href="https://garlandtools.org/db/">Garland Data</a>，图片等素材版权为
+      <a href="https://www.square-enix.com/" target="_blank">SQUARE ENIX</a>
+      所有.
+    </p>
+    <p class="sm">
+      Copyright (C) 2010 - 2024 SQUARE ENIX CO., LTD. All Rights Reserved.
+    </p>
+  </div>
+</body>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const url = urlParams.get("url");
+  if (url) {
+    // redirect to ffreplay.html
+    window.location = `/ffreplay.html?url=${url}`;
+  }
+</script>
+
 </html>
