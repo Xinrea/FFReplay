@@ -71,7 +71,8 @@
     </p>
     <div style="display: flex; flex-direction: column">
       <input type="text" id="url" placeholder="请在此处粘贴 FFLogs 地址" />
-      <button onclick="window.location = `/ffreplay.html?url=${document.getElementById('url').value}`">
+      <button
+        onclick="window.location = `/ffreplay.html?url=${encodeURIComponent(document.getElementById('url').value)}`">
         Go
       </button>
     </div>
