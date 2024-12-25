@@ -65,6 +65,58 @@
       }
     },
     {
+      "id": 821,
+      "path": "asset/floor/omega_1.jpg",
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "phases": [
+        {
+          "path": "asset/floor/omega_1.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/omega_2.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/omega_3.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/omega_4.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/omega_5.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "path": "asset/floor/omega_6.jpg",
+          "offset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
       "id": 77,
       "path": "asset/floor/futures_rewritten_1.png",
       "offset": {
