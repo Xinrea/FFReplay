@@ -4,114 +4,114 @@
       "id": 834,
       "path": "asset/floor/p10s.jpg",
       "offset": {
-        "x": 0,
-        "y": -187.5
+        "x": 100,
+        "y": 92.5
       }
     },
     {
       "id": 837,
       "path": "asset/floor/p9s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 839,
       "path": "asset/floor/p11s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 835,
       "path": "asset/floor/p12s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 924,
       "path": "asset/floor/m4s.png",
       "offset": {
-        "x": 0,
-        "y": 750
+        "x": 100,
+        "y": 130
       }
     },
     {
       "id": 926,
       "path": "asset/floor/m3s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 923,
       "path": "asset/floor/m2s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 927,
       "path": "asset/floor/m1s.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       }
     },
     {
       "id": 821,
       "path": "asset/floor/omega_1.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       },
       "phases": [
         {
           "path": "asset/floor/omega_1.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/omega_2.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/omega_3.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/omega_4.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/omega_5.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/omega_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         }
       ]
@@ -120,43 +120,43 @@
       "id": 77,
       "path": "asset/floor/futures_rewritten_1.png",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       },
       "phases": [
         {
           "path": "asset/floor/futures_rewritten_1.png",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/futures_rewritten_2.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/futures_rewritten_3.png",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/futures_rewritten_3.png",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/futures_rewritten_4.png",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         }
       ]
@@ -165,64 +165,64 @@
       "id": 758,
       "path": "asset/floor/dragonsongs_reprise_1.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       },
       "phases": [
         {
           "path": "asset/floor/dragonsongs_reprise_1.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_2.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_1.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_5.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_7.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         }
       ]
@@ -231,64 +231,64 @@
       "id": 765,
       "path": "asset/floor/dragonsongs_reprise_1.jpg",
       "offset": {
-        "x": 0,
-        "y": 0
+        "x": 100,
+        "y": 100
       },
       "phases": [
         {
           "path": "asset/floor/dragonsongs_reprise_1.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_2.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_1.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_5.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_3_4_6.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         },
         {
           "path": "asset/floor/dragonsongs_reprise_7.jpg",
           "offset": {
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 100
           }
         }
       ]
