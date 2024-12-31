@@ -1,0 +1,6 @@
+<TextureAtlas>
+    <SubTexture name="limitbreak_frame.png" x="1" y="1" w="182" h="13"/>
+    <SubTexture name="limitbreak_bg.png" x="1" y="18" w="182" h="13"/>
+    <SubTexture name="limitbreak_fg.png" x="1" y="34" w="182" h="13"/>
+    <SubTexture name="limitbreak_full.png" x="1" y="50" w="182" h="13"/>
+</TextureAtlas>

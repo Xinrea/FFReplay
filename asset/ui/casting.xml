@@ -1,0 +1,4 @@
+<TextureAtlas>
+    <SubTexture name="casting_frame.png" x="2" y="16" w="200" h="17" top="6" left="6" right="6"/>
+    <SubTexture name="casting_fg.png" x="2" y="0" w="200" h="17" top="6" left="6" right="6"/>
+</TextureAtlas>

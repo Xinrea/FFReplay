@@ -1,0 +1,6 @@
+<TextureAtlas>
+    <SubTexture name="normal_bar_bg.png" x="2" y="63" w="196" h="21" top="7" bottom="7" left="8" right="8"/>
+    <SubTexture name="normal_bar_fg.png" x="2" y="42" w="196" h="21" top="7" bottom="7" left="8" right="8"/>
+    <SubTexture name="red_bar_bg.png" x="2" y="21" w="196" h="21" top="7" bottom="7" left="8" right="8"/>
+    <SubTexture name="red_bar_fg.png" x="2" y="0" w="196" h="21" top="7" bottom="7" left="8" right="8"/>
+</TextureAtlas>
