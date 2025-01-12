@@ -12,7 +12,10 @@
       }
 
       #progress-text {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
         margin-top: 10px;
         font-size: 16px;
       }
@@ -23,7 +26,7 @@
     <div id="progress">
       <div id="progress-bar"></div>
     </div>
-    <p id="progress-text"></p>
+    <div id="progress-text"></div>
   </body>
 
   <script>
@@ -35,7 +38,7 @@
       progressText.style.transform = "translate(-50%, -50%)";
 
       // 使用 Fetch API 加载 Wasm 模块
-      const response = await fetch("ffreplay-24c0aa8.wasm", {
+      const response = await fetch("ffreplay-483ac0c.wasm", {
         method: "GET",
       });
 
@@ -75,11 +78,16 @@
         chunksAll,
         go.importObject
       );
+      window.exitMessage = "";
       if (url) {
         go.argv = ["", "-u", url];
         go.exit = (code) => {
           progressText.style.display = "flex";
-          progressText.innerText = "回放程序已退出\n" + codeToMessgae(code);
+          progressText.innerHTML =
+            '<p>回放程序异常退出，请检查 URL、网络或者使用其他浏览器；如果未能解决问题，请复制以下信息提供给<a href="https://message.bilibili.com/?#/whisper/mid475210">开发者</a></p>' +
+            "<pre>" +
+            window.exitMessage +
+            "</pre>";
 
           document.body.removeChild(document.body.lastChild);
         };
@@ -91,22 +99,5 @@
 
     // 调用加载函数
     loadWasm().catch(console.error);
-
-    function codeToMessgae(code) {
-      switch (code) {
-        case 150:
-          return "报告地址错误，请检查 URL";
-        case 151:
-          return "报告战斗 ID 错误，请检查 URL";
-        case 152:
-          return "获取报告数据出错，报告权限可能为私人，请检查 URL";
-        case 153:
-          return "网络错误，请检查网络连接后重试";
-        case 154:
-          return "ClientToken 错误，请联系开发者处理";
-        default:
-          return "错误 " + code;
-      }
-    }
   </script>
 </html>
