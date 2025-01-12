@@ -35,7 +35,7 @@
       progressText.style.transform = "translate(-50%, -50%)";
 
       // 使用 Fetch API 加载 Wasm 模块
-      const response = await fetch("ffreplay-aec78c8.wasm", {
+      const response = await fetch("ffreplay-24c0aa8.wasm", {
         method: "GET",
       });
 
@@ -75,8 +75,15 @@
         chunksAll,
         go.importObject
       );
+      if (url) {
+        go.argv = ["", "-u", url];
+        go.exit = (code) => {
+          progressText.style.display = "flex";
+          progressText.innerText = "回放程序已退出\n" + codeToMessgae(code);
 
-      go.argv = ["", "-u", url];
+          document.body.removeChild(document.body.lastChild);
+        };
+      }
       go.run(instance);
 
       progressText.style.display = "none";
@@ -84,5 +91,22 @@
 
     // 调用加载函数
     loadWasm().catch(console.error);
+
+    function codeToMessgae(code) {
+      switch (code) {
+        case 150:
+          return "报告地址错误，请检查 URL";
+        case 151:
+          return "报告战斗 ID 错误，请检查 URL";
+        case 152:
+          return "获取报告数据出错，报告权限可能为私人，请检查 URL";
+        case 153:
+          return "网络错误，请检查网络连接后重试";
+        case 154:
+          return "ClientToken 错误，请联系开发者处理";
+        default:
+          return "错误 " + code;
+      }
+    }
   </script>
 </html>
